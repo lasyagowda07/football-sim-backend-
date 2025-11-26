@@ -1,5 +1,6 @@
 from core.db import Base, engine
-from models.model_run import ModelRun  # noqa: F401 (import so table is registered)
+from models.model_run import ModelRun          # noqa: F401
+from models.simulation_run import SimulationRun  # noqa: F401
 
 
 def init_db():
