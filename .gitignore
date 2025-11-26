@@ -59,6 +59,9 @@ dist/
 build/
 __build__/
 *.tmp
+local_models/
+local_models_cache/
+mock_s3/
 
 # Docker
 docker-cache/
