@@ -1,0 +1,66 @@
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+*.log
+
+# Virtual environment
+venv/
+.env/
+.venv/
+env/
+ENV/
+
+# Jupyter (if used for testing/training)
+.ipynb_checkpoints/
+*.ipynb
+
+# -------------------------
+# Project-specific folders
+# -------------------------
+data/               # local CSVs used in dev
+mock_s3/            # your local S3 mock folder
+models/             # local model artifacts if stored
+processed/          # any local processed data dumps
+
+# Don’t track DB files (SQLite)
+*.db
+*.sqlite3
+*.sqlite
+
+# -------------------------
+# Environment files
+# -------------------------
+*.env
+.env.local
+.env.development
+.env.production
+
+# -------------------------
+# OS & Editor files
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -------------------------
+# Cache & build
+# -------------------------
+*.cache
+.cache/
+dist/
+build/
+__build__/
+*.tmp
+
+# Docker
+docker-cache/
+Dockerfile~
+*.tar
